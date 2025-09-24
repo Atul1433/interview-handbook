@@ -147,6 +147,11 @@ public class UpiPayment : Payment
 ```
 👉 In interview: emphasize **“Abstraction allows my CheckoutService to depend on IPayment, not concrete classes. This follows Dependency Inversion and allows easy extensibility.”**
 
+### Interface
+**Defination :** An interface defines a contract that classes or structs must follow. It contains only declarations—no implementation. Interfaces promote loose coupling, polymorphism, and testability.
+
+“An interface defines what a class can do, but not how it does it.”
+
 ### 3. Inheritance (Code Reuse + Hierarchy)
 
 **Definition:** Inheritance is a mechanism where a child class (derived class) can reuse fields and methods from a parent class (base class).
